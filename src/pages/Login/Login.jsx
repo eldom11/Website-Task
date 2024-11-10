@@ -32,8 +32,8 @@ function Login() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Enter your email"
-          className="bg-gray-700 focus:bg-emerald-900 focus:outline-none border-zinc-900 border-2 focus:border-4 rounded-lg w-96 mt-2 mb-5 text-gray-400 focus:text-white"
-          />
+          className="bg-gray-700 focus:bg-emerald-900 focus:outline-none border-zinc-900 border-2 focus:border-4 rounded-lg w-96 mt-2 mb-5 text-gray-400 focus:text-white" 
+        />
         
         <label htmlFor="password" className="text-white">Password</label>
         <Input
@@ -43,9 +43,10 @@ function Login() {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           placeholder="Enter your password"
-          className="bg-gray-700 focus:bg-emerald-900 focus:outline-none border-zinc-900 border-2 focus:border-4 rounded-lg w-96 mt-2 mb-5 text-gray-400 focus:text-white"        />
+          className="bg-gray-700 focus:bg-emerald-900 focus:outline-none border-zinc-900 border-2 focus:border-4 rounded-lg w-96 mt-2 mb-5 text-gray-400 focus:text-white" 
+        />
 
-        <Button className={'p-2 w-full bg-gradient-to-tr from-neutral-950 via-emerald-700 to-neutral-900 text-white mt-4 w-full rounded-lg flex justify-center items-center gap-2 font-bold'} onClick={handleSignIn}  title="Sign In">
+        <Button className={'p-2 w-full bg-gradient-to-tr from-neutral-950 via-emerald-700 to-neutral-900 text-white mt-4 w-full rounded-lg flex justify-center items-center gap-2 font-bold hover:translate-y-1 hover:bg-gradient-to-tr hover:from-neutral-600 hover:via-emerald-400 hover:to-neutral-500'} onClick={handleSignIn}  title="Sign In">
           <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M11.8334 1L4.50002 8.33333L1.16669 5" stroke="#FFFFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>

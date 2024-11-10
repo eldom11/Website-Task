@@ -86,7 +86,7 @@ function UpdatePage() {
                 className="bg-transparent focus:bg-emerald-900 focus:outline-none border-zinc-900 border-2 focus:border-4 rounded-lg w-96 mt-2 mb-5 text-gray-400 focus:text-white"
               />
             </div>
-            <Button className="w-full bg-gradient-to-tr from-neutral-950 via-emerald-700 to-neutral-900 p-2 rounded-md border-purple-400 border-2 mt-2 flex justify-center items-center gap-2 font-bold" onClick={handleSaveProfile} title="Save">
+            <Button className="w-full bg-gradient-to-tr from-neutral-950 via-emerald-700 to-neutral-900 p-2 rounded-md border-purple-400 border-2 mt-2 flex justify-center items-center gap-2 font-bold hover:translate-y-1 hover:bg-gradient-to-tr hover:from-neutral-600 hover:via-emerald-400 hover:to-neutral-500" onClick={handleSaveProfile} title="Save">
               <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11.8334 1L4.50002 8.33333L1.16669 5" stroke="#FFFFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
